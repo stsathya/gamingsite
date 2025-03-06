@@ -9,7 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: "Rocket Shooting",
             url: "https://stsathya.github.io/rocketshooting/",
-            thumbnail: "https://img.itch.zone/aW1nLzEyMjE2NjcucG5n/original/GUNxqD.png",
+            thumbnail: "data:image/svg+xml," + encodeURIComponent(`<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#0a1128;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#1a237e;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grad)"/>
+                <text x="50%" y="50%" font-family="Arial" font-size="48" fill="#00ff88" text-anchor="middle" dy=".3em">Rocket Shooting</text>
+            </svg>`),
             description: "Navigate through space and shoot down enemy rockets in this exciting arcade shooter!",
             categories: ["arcade", "shooting", "action"]
         }
